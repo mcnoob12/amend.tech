@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+/* put all elements in body in center both horizontally and vertically */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

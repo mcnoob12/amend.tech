@@ -1,48 +1,19 @@
+<!-- basic template -->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>
-			Amend.tech Official Website
-		</title>
-	</head>
-	<!-- create body with black background -->
-	<body style="background-color: black;">
-	<!-- put white border 3px thick on the body -->
-		<style>
-			body{
-				border: 3px solid white;
-				border-radius: 25px;
-			}
-		</style>
-<!-- make it center of the screen both horizontally and vertically -->
-<style>
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-		color: white;
-    }
+<head>
+    <title>Basic Template</title>
+</head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<body>
+    <!-- Add your content here -->
+	<center>
+	<h1>
+		Amend.Tech
+	</h1>
+	<br>
+	<h2>Amending the world</h2>
+</center>
 
-</style>
-
-		<h1>Amend.tech</h1>
-		<!-- write official website with typewriter effect -->
-		<p>
-			<script>
-				var i = 0;
-				var txt = "Amend.tech";
-				var speed = 100;
-				function typeWriter() {
-					
-					if (i < txt.length) {
-						
-						document.getElementById("demo").innerHTML += txt.charAt(i);
-						i++;
-						setTimeout(typeWriter, speed);
-
-					}
-				}
-				typeWriter();
-			</script>
-		</p>
-	</body>
+</body>
 </html>
