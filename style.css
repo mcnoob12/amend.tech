@@ -3,7 +3,8 @@ body {
     color: white;
     border-radius: 25px;
     font-family: 'Tilt Neon', sans-serif;
-    cursor: none;
+    
+    cursor: url('cursor.svg')
     
 }
 button{
