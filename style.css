@@ -3,12 +3,82 @@ body {
     color: white;
     border-radius: 25px;
     font-family: 'Tilt Neon', sans-serif;
+    cursor: none;
+    
 }
 button{
 
     font-family: 'Tilt Neon', sans-serif;
-    height: 50px;
+    height: 10px;
     font-size: x-large;
     border-radius: 25px;
     font-weight: bolder;
+    border-width: 0;
+    background-color: #1a1a1a;
+    
 }
+
+.atag{
+    color: white;
+}
+div{
+    background-color: black;
+}
+/* Add a black background color to the top navigation */
+.head {
+    background-color: #1a1a1a;
+    
+    overflow: hidden;
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Tilt Neon', sans-serif;
+    position: sticky;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .head a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  /* Change the color of links on hover */
+  .head a:hover {
+    
+    color: yellowgreen;
+    border-radius: 50px;
+    height: min-content;
+  }
+  
+  /* Add a color to the active/current link */
+  .head a.active {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 50px;
+  }
+
+ .cursor-dot{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+ }
+
+ .cursor-outline{
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsla(0,0%, 100, 0.5);
+ }
+
+ .cursor-dot,
+ .cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+ }
